@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study in China - Unique Opportunity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .opportunity-card {
+            background: linear-gradient(45deg, #1a237e, #0d47a1);
+            color: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            background: url('https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=1200&q=80') center;
+            background-size: cover;
+            height: 200px;
+            position: relative;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .chinese-symbol {
+            font-size: 3.5em;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .highlight-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid #ffd700;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .price-tag {
+            background: #ffd700;
+            color: #1a237e;
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .benefit-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-section {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ffd700;
+            color: #1a237e;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-button:hover {
+        
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .global-badge {
+            background: #ff4081;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                padding: 20px;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="opportunity-card">
+            <div class="header">
+                <div class="header-content">
+                    <div class="chinese-symbol">中国</div>
+                    <h1>Your Gateway to China</h1>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="global-badge">🌏 Open to All Nationalities</div>
+                
+                <div class="highlight-box">
+                    <h2>🎓 Unique Educational Opportunity</h2>
+                    <p>Study at your chosen Chinese university! Experience the rich culture and unlock your future potential.</p>
+                </div>
+
+                <div class="price-tag">
+                    Registration Fee: Only 1,500 SAR
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h3>🏛️ University Choice</h3>
+                        <p>Freedom to select your preferred Chinese university</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>🗣️ Language Mastery</h3>
+                        <p>Comprehensive Chinese language program</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>🏛️ Cultural Immersion</h3>
+                        <p>Experience authentic Chinese culture firsthand</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h3>🎯 Career Advantage</h3>
+                        <p>Gain a competitive edge in the global market</p>
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Secure Your Spot Now!</h2>
+                    <p>Don't miss this life-changing opportunity</p>
+                    <a href="https://wa.me/966537394467" class="contact-button">
+                        WhatsApp: +966 537394467
+                    </a>
+                    <a href="#" class="contact-button">
+                        WeChat ID: alahmadi819
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
