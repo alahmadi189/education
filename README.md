@@ -1,0 +1,1 @@
+# Full UI structure for education project
